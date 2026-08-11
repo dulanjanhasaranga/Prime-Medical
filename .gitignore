@@ -1,0 +1,24 @@
+# === Java / Maven ===
+backend/target/
+*.class
+
+# === Node / Frontend ===
+frontend/node_modules/
+frontend/dist/
+
+# === IDE & Editor ===
+.vscode/
+.idea/
+*.iml
+.tools/
+
+# === Environment & Secrets ===
+backend/src/main/resources/application-local.yml
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Uploads (user data) ===
+uploads/
+backend/uploads/
